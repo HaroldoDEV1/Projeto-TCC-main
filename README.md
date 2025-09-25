@@ -87,13 +87,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 </div>
 
-
-
-
-
-<<<<<<< HEAD
-# Projeto TCC
-Frontend e Backend do TCC 
+# Instruções de Uso:
 
 Inicializar BackEnd:
 npm init -y
