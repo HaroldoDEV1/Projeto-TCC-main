@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; /* Remove default margin */
+    background-color: #f4f4f4;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align horizontally */
+    justify-content: center; /* Center-align vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    width: 100%; /* Full width to align children elements */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center-align form elements horizontally */
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #1a9b2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #175f08;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.geral{
+    background-color: #fff;
+    width: 90%;
+    max-width: 490px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+form{
+    
+}
+
+/* Segundo Body RESULT */
+
+.bodyy{
+    
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 767px) {
+    
+    body {
+        font-size: 14px;
+        padding-top: 20px; /* Add padding to avoid content touching the edges */
+        padding-bottom: 20px; /* Add padding to avoid content touching the edges */
+        min-height: auto; /* Allow body to shrink on small devices */
+        justify-content: flex-start; /* Align content to the top on small devices */
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    .geral{
+        width: auto; /* Full width minus padding on small screens */
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: none; /* Remove shadow for a flat design on small screens */
+        margin-bottom: 20px; /* Add space below the container */
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: .8rem;
+        border-radius: 15px;
+        margin-bottom: 20px; /* Add space below the button */
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}

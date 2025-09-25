@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro de Remedios</title>
+    </head>
+    <body>
+        <h1>Cadastro de Remédios</h1>
+        <form method="POST" action="http://localhost:3000/api/medicine/create" enctype="multipart/form-data">
+            <label>Imagem:</label>
+            <input type="text" name="image" required />
+            <br />
+            <label>Nome:</label>
+            <input type="text" name="name" required/>
+            <br />
+            <label>Categoria:</label>
+            <input type="text" name="category" required/>
+            <br />
+            <label>Descrição:</label>
+            <input type="text" name="description"  required />
+            <br />
+            <label>Bula:</label>
+            <input type="file" name="bula" required />
+            <br />
+            <label>Price:</label>
+            <input type="text" name="price" required />
+            <br />
+            <button type="submit">Criar Remédio</button>
+        </form>
+    
+</body>
+</html>

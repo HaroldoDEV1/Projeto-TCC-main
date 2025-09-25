@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Login Test</title>
+</head>
+<body>
+  <h1>Login Test</h1>
+  <form id="loginForm" method="POST" action="http://192.168.0.67:3000/users/login">
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', async function(event) {
+      event.preventDefault();
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+
+      try {
+        const response = await fetch('http://192.168.0.67:3000/users/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ email, password })
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          alert('Login successful!');
+        } else {
+          alert('Login failed!');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Error connecting to the server');
+      }
+    });
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Scam Virtual Pharma</title>
+    <link rel="stylesheet" href="{{ url_for('send_css', filename='styles.css') }}">
+</head>
+<body>
+    <div class ="geral">
+        <h1 class ="titulo">Leitor de caixa de remédio</h1>
+        <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="file"><p>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+</body>
+</html>
