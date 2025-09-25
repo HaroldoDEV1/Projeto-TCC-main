@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projeto TCC
 Frontend e Backend do TCC 
 
@@ -14,4 +15,5 @@ npm install 'dependências' (deve ser instalado todas as dependências presentes
 npm i -g expo-cli
 npx expo start
 -> caso for rodar no android studio: digitar 'a'
+
 
