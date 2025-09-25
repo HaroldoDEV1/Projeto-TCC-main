@@ -59,22 +59,6 @@ A **Turing Innovate** é uma empresa de software focada em transformar problemas
 - [ ] Modo offline para consultas básicas
 - [ ] Versão web complementar
 
-## 👥 Equipe de Desenvolvimento
-
-**Turing Innovate Team:**
-- Haroldo Kimura - *Desenvolvimento Back-end & IA*
-- [Nomes dos outros 5 desenvolvedores] - *Front-end, Design, QA*
-
-## 📞 Contato
-
-**Turing Innovate**  
-📧 [email da empresa]  
-🔗 [Site/LinkedIn da empresa]  
-
-**Haroldo Kimura**  
-📧 haroldokimura66@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/haroldo-kimura-a9013b229)
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
