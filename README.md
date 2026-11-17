@@ -3,7 +3,6 @@
 <div align="center">
 
 ![Turing Innovate](https://img.shields.io/badge/Desenvolvido%20por-Turing%20Innovate-blueviolet)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 ![Licença](https://img.shields.io/badge/Licença-MIT-green)
 
 </div>
