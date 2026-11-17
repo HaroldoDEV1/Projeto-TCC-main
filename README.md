@@ -16,10 +16,10 @@ O **Virtual Pharma** é um aplicativo inovador desenvolvido pela **Turing Innova
 ## Diferenciais Competitivos
 
 - **Pesquisa Inteligente:** IA para busca e identificação de medicamentos
-- ** Bulas Acessíveis:** Leitura simplificada com informações essenciais em destaque
-- ** Organização por Categorias:** Medicamentos classificados para fácil navegação
-- ** Acessibilidade:** Design inclusivo pensado em todos os usuários
-- ** Informações Essenciais:** Destaque para dados cruciais de forma clara e objetiva
+- **Bulas Acessíveis:** Leitura simplificada com informações essenciais em destaque
+- **Organização por Categorias:** Medicamentos classificados para fácil navegação
+- **Acessibilidade:** Design inclusivo pensado em todos os usuários
+- **Informações Essenciais:** Destaque para dados cruciais de forma clara e objetiva
 
 ## Tecnologias Utilizadas
 
